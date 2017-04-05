@@ -6,6 +6,21 @@ serif;
     -moz-border-radius: $radius;
     border-radius: $radius;
 }
+@mixin opacity($opacity) {
+    -webkit-opacity: $opacity;
+    -moz-opacity: $opacity;
+    opacity: $opacity;
+}
+@mixin text-shadow($shadows) {
+    -webkit-text-shadow: $shadows;
+    -moz-text-shadow: $shadows;
+    text-shadow: $shadows;
+}
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    transition: $transition;
+}
 
 .input-group {
     margin-top: 20px;
@@ -26,7 +41,7 @@ serif;
     p {
         font-family: $serif_font;
         color: aliceblue;
-        text-shadow: 2px 2px 4px #000000;
+        @include text-shadow(2px 2px 4px #000);
     }
 }
 
@@ -44,10 +59,10 @@ serif;
     @include border-radius(0px);
     &-success {
         padding: 20px 50px;
-        opacity: 0.85;
-        transition: opacity 1s;
+        @include opacity(0.85);
+        @include transition(opacity 1s);
         &:hover {
-            opacity: 1;
+            @include opacity(1);
             background-color: #5cb85c;
         }
     }
