@@ -84,18 +84,19 @@ textarea {
   width: 100%; }
 
 .container .jumbotron {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   border-radius: 0px; }
 
 .jumbotron {
   background-image: url("../img/art_advisors.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-
-.jumbotron h1,
-.jumbotron p {
-  font-family: "Constantia", Times, serif;
-  color: aliceblue;
-  text-shadow: 2px 2px 4px #000000; }
+  .jumbotron h1,
+  .jumbotron p {
+    font-family: "Constantia", Times, serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000; }
 
 .lead {
   margin-right: 40%; }
@@ -104,20 +105,19 @@ textarea {
   font-family: "Constantia", Times, serif; }
 
 .btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
   border-radius: 0px; }
-
-.btn-success {
-  padding: 20px 50px;
-  opacity: 0.85;
-  transition: opacity 1s; }
-
-.btn-success:hover {
-  opacity: 1;
-  background-color: #5cb85c; }
-
-.btn-primary {
-  width: 100%;
-  padding: 15px 0px; }
+  .btn-success {
+    padding: 20px 50px;
+    opacity: 0.85;
+    transition: opacity 1s; }
+    .btn-success:hover {
+      opacity: 1;
+      background-color: #5cb85c; }
+  .btn-primary {
+    width: 100%;
+    padding: 15px 0px; }
 
 .footer {
   margin-top: 50px;
