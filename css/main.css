@@ -83,6 +83,25 @@ textarea {
   margin-top: 20px;
   width: 100%; }
 
+.nav li a {
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out; }
+.nav li:nth-child(1) a:hover {
+  background-color: rgba(102, 179, 255, 0.3); }
+.nav li:nth-child(2) a:hover {
+  background-color: rgba(255, 204, 102, 0.3); }
+.nav li:nth-child(3) a:hover {
+  background-color: rgba(102, 255, 102, 0.3); }
+.nav li:nth-child(4) a:hover {
+  background-color: rgba(255, 255, 102, 0.3); }
+.nav li:nth-child(5) a:hover {
+  background-color: rgba(102, 255, 255, 0.3); }
+.nav li:nth-child(6) a:hover {
+  background-color: rgba(163, 102, 255, 0.3); }
+.nav li:nth-child(7) a:hover {
+  background-color: rgba(255, 0, 0, 0.3); }
+
 button {
   display: none; }
 
