@@ -1,6 +1,11 @@
-$(document).ready(function(){
-    $("button").click(function(e){
-        $("nav").toggle();
-        e.preventDefault();
-    });
+$(document).ready(function() {
+
+  $("#menu").click(function() {
+    $(".toggle").toggleClass("hidden-xs");
+  });
+
+  $(".toggle").click(function(){
+    $(".toggle").toggleClass("hidden-xs");
+  });
+
 });
