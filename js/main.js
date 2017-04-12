@@ -4,8 +4,11 @@ $(document).ready(function() {
     $(".toggle").toggleClass("hidden-xs");
   });
 
-  $(".toggle").click(function(){
+  $(".toggle a").click(function(e){
     $(".toggle").toggleClass("hidden-xs");
+    $(".toggle a.active").removeClass("active");
+    $(this).addClass("active");
+    e.preventDefault();
   });
 
 });

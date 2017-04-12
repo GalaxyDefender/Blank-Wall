@@ -102,6 +102,9 @@ textarea {
 .nav li:nth-child(7) a:hover {
   background-color: rgba(255, 0, 0, 0.3); }
 
+.active {
+  background-color: rgba(166, 166, 166, 0.3); }
+
 button {
   display: none; }
 
