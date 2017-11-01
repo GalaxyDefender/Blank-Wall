@@ -12,3 +12,7 @@ $(document).ready(function() {
   });
 
 });
+
+(function() {
+    console.log(DATA.artists[1].name);
+})()
