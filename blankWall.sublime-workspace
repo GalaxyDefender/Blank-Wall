@@ -15,10 +15,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 173.0,
-		"last_filter": "",
+		"height": 490.0,
+		"last_filter": "ng ser",
 		"selected_items":
 		[
+			[
+				"ng ser",
+				"Angular CLI: serve"
+			],
+			[
+				"type",
+				"Build With: TypeScript"
+			],
+			[
+				"insta",
+				"Indexing Status"
+			],
 			[
 				"npm st",
 				"npm: Run Script"
@@ -26,10 +38,6 @@
 			[
 				"html",
 				"HTML: Encode Special Characters"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"npm in",
@@ -80,7 +88,7 @@
 				"Package Control: Install Local Dependency"
 			]
 		],
-		"width": 576.0
+		"width": 664.0
 	},
 	"console":
 	{
@@ -99,12 +107,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Users/RMCSERV/Desktop/Webstuff/Blank Wall"
-	],
 	"file_history":
 	[
+		"/C/Users/RMCSERV/Desktop/Webstuff/Blank Wall/src/app/app.component.html",
 		"/C/Users/RMCSERV/Desktop/Cirillo Prime/40k.batcave.co.za.html",
 		"/C/Users/RMCSERV/Desktop/Cirillo Prime/css/style.css",
 		"/C/Users/RMCSERV/Desktop/Apps/artAPI/node-express-artAPI/node_modules/traverson/browser/dist/traverson.external.js",
@@ -187,6 +192,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 174.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -203,7 +212,7 @@
 	{
 		"height": 136.0
 	},
-	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
+	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
 	"project": "blankWall.sublime-project",
 	"replace":
 	{
@@ -221,12 +230,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 625.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\RMCSERV\\Desktop\\Webstuff\\Blank Wall\\blankWall.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{
@@ -241,11 +254,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
-	"show_open_files": false,
-	"show_tabs": true,
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 168.0,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
