@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { CuratorsChoiceComponent } from './home/curators-choice/curators-choice.component';
 import { FeaturedArtistComponent } from './home/featured-artist/featured-artist.component';
 import { AffordableDesignsComponent } from './home/affordable-designs/affordable-designs.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AffordableDesignsComponent } from './home/affordable-designs/affordable
     HomeComponent,
     CuratorsChoiceComponent,
     FeaturedArtistComponent,
-    AffordableDesignsComponent
+    AffordableDesignsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,6 @@ import { AffordableDesignsComponent } from './home/affordable-designs/affordable
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, FooterComponent]
 })
 export class AppModule { }
