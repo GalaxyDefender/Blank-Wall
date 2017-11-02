@@ -14,13 +14,37 @@
 
 <nav>
     <ul class="nav nav-justified">
-        <li class="visible-xs" id="menu"><a href="#">Menu</a></li>
-        <li class="toggle hidden-xs"><a href="#">Paintings</a></li>
-        <li class="toggle hidden-xs"><a href="#">Photography</a></li>
-        <li class="toggle hidden-xs"><a href="#">Drawings</a></li>
-        <li class="toggle hidden-xs"><a href="#">Sculpture</a></li>
-        <li class="toggle hidden-xs"><a href="#">Prints</a></li>
-        <li class="toggle hidden-xs"><a href="#">Art Advisory</a></li>
-        <li class="toggle hidden-xs"><a href="#">Contact</a></li>
+        <div class="collapse navbar-collapse">
+            
+        </div>
+        <li class="dropdown" id="menu" appDropdown><a href="#" class="dropdown-toggle" role="button">Menu</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Paintings</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Drawings</a></li>
+            <li><a href="#">Sculpture</a></li>
+            <li><a href="#">Prints</a></li>
+            <li><a href="#">Art Advisory</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </li>
     </ul>
+</nav>
+
+
+<!--  -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="dropdown" appDropdown>
+          <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Save Data</a></li>
+            <li><a href="#">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
