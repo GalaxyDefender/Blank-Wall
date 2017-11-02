@@ -4,10 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+import { CuratorsChoiceComponent } from './home/curators-choice/curators-choice.component';
+import { FeaturedArtistComponent } from './home/featured-artist/featured-artist.component';
+import { AffordableDesignsComponent } from './home/affordable-designs/affordable-designs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    HomeComponent,
+    CuratorsChoiceComponent,
+    FeaturedArtistComponent,
+    AffordableDesignsComponent
   ],
   imports: [
     BrowserModule,
