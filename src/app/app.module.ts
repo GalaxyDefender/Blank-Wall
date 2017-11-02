@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
+// import 'test.css';
 import { HomeComponent } from './home/home.component';
 import { CuratorsChoiceComponent } from './home/curators-choice/curators-choice.component';
 import { FeaturedArtistComponent } from './home/featured-artist/featured-artist.component';
