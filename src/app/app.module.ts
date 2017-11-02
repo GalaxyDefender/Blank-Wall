@@ -10,6 +10,7 @@ import { CuratorsChoiceComponent } from './home/curators-choice/curators-choice.
 import { FeaturedArtistComponent } from './home/featured-artist/featured-artist.component';
 import { AffordableDesignsComponent } from './home/affordable-designs/affordable-designs.component';
 import { FooterComponent } from './footer/footer.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     CuratorsChoiceComponent,
     FeaturedArtistComponent,
     AffordableDesignsComponent,
-    FooterComponent
+    FooterComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
