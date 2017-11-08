@@ -12,6 +12,7 @@ import { FeaturedArtistComponent } from './home/featured-artist/featured-artist.
 import { AffordableDesignsComponent } from './home/affordable-designs/affordable-designs.component';
 import { FooterComponent } from './footer/footer.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { ArtistsComponent } from './artists/artists.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DropdownDirective } from './shared/dropdown.directive';
     FeaturedArtistComponent,
     AffordableDesignsComponent,
     FooterComponent,
-    DropdownDirective
+    DropdownDirective,
+    ArtistsComponent
   ],
   imports: [
     BrowserModule,
